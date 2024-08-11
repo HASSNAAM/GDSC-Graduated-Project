@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
       imgBefore: "./imges/woman1.jpg",
       quote:
         "An incredible place for fitness enthusiasts. The community is supportive, and the trainers provide personalized guidance to push your limits and achieve your goals. Vyayamshala’s environment is truly inspiring, making every workout session enjoyable and rewarding.",
-      starsImg: "../imges/stares.png",
+      starsImg: "./imges/stares.png",
       author: "Jane Smith, Teacher",
     },
     {
@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
       imgBefore: "./imges/man4.jpg",
       quote:
         "A top-tier gym experience for those serious about fitness. From state-of-the-art equipment to a welcoming atmosphere, Vyayamshala offers everything you need to stay committed. The positive energy and motivation here are unmatched, helping you exceed your expectations.",
-      starsImg: "../imges/stares.png",
+      starsImg: "./imges/stares.png",
       author: "Mark Johnson, Engineer",
     },
   ];
