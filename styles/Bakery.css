@@ -1,0 +1,241 @@
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Tangerine:wght@400;700&display=swap");
+/* Global */
+:root {
+  --main-black: #000000;
+  --alt-gray: #7e7e7e;
+  --white: #ffffff;
+  --button: #313131;
+  --alt-black: #050706;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+main,
+.reviews {
+  margin: 100px 0;
+}
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 67.5px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--alt-black);
+}
+p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: center;
+  color: var(--alt-black);
+}
+button {
+  padding: 8px 24px;
+  font-size: 18.66px;
+  font-weight: 500;
+  line-height: 32px;
+  color: var(--white);
+  margin-bottom: 15px;
+  background-color: var(--button);
+}
+button:hover {
+  background-color: var(--white);
+  color: var(--button);
+}
+.container {
+  width: 88%;
+}
+/* Nav */
+nav .container {
+  padding-top: 30px;
+  margin-bottom: 50px;
+}
+nav .logo small {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.63px;
+  text-align: center;
+}
+nav ul li a,
+#mobile-menu a {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.5px;
+  color: var(--alt-gray);
+  display: block;
+}
+nav ul li a.active,
+nav ul li a:hover,
+#mobile-menu a.active,
+#mobile-menu a:hover {
+  color: var(--main-black);
+  font-weight: 700;
+}
+/* Header */
+header .container .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-family: "Tangerine", cursive;
+  color: var(--alt-black);
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 67.5px;
+  letter-spacing: 0.03em;
+  margin-bottom: 30px;
+}
+header .container .content p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.07px;
+  color: var(--alt-gray);
+}
+header .photos {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 35px;
+}
+header .photos > img:nth-of-type(2) {
+  margin-top: 40px;
+}
+header .photos .social-line {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-left: 20px;
+}
+/* Main */
+main .menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+main .menu h3 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 67.5px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--alt-black);
+}
+/* About */
+.family {
+  height: 481px;
+}
+.family .content .right {
+  padding: 70px 90px;
+  background-color: #fbedca;
+}
+.family .content .right > * {
+  text-align: left !important;
+  margin-bottom: 30px;
+}
+/* Reviews */
+.reviews .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  width: 65%;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+.reviews .content p {
+  text-align: left;
+}
+.reviews .content p span {
+  font-weight: 700;
+}
+/* Footer */
+footer {
+  background-color: var(--alt-black);
+  padding: 50px 0 5px 0;
+}
+footer p a {
+  color: var(--white);
+}
+footer a:hover {
+  color: var(--alt-gray);
+}
+/* Responsive */
+#icon-menu {
+  color: var(--alt-black);
+}
+#mobile-container {
+  background-color: #3131317e;
+}
+#mobile-menu {
+  background-color: var(--button);
+}
+#mobile-menu li {
+  margin-bottom: 20px;
+}
+#mobile-menu a,
+#mobile-container i {
+  color: var(--white);
+}
+#mobile-menu a.active,
+#mobile-menu a:hover,
+#mobile-container i:hover,
+#icon-menu:hover {
+  color: var(--alt-gray);
+}
+@media screen and (max-width: 821px) {
+  header .photos {
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  header .photos .social-line {
+    position: absolute;
+    right: 30px;
+  }
+  .reviews .content {
+    flex-wrap: wrap;
+  }
+  .reviews .content p {
+    text-align: center;
+  }
+  .family .content .right {
+    padding: 50px;
+    height: 450px;
+  }
+  .family .content .right > * {
+    text-align: left !important;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 768px) and (max-width: 821px) {
+  .family {
+    height: 450px;
+    overflow: hidden;
+  }
+  .family .left {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 767px) {
+  h1 {
+    text-align: center;
+  }
+  .family {
+    height: fit-content !important;
+  }
+  .family .content .right > * {
+    text-align: center !important;
+  }
+  .reviews .content {
+    width: 85%;
+  }
+}
