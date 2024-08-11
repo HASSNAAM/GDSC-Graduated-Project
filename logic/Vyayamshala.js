@@ -5,24 +5,24 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const persons = [
     {
-      imgAfter: "../imges/man1.png",
-      imgBefore: "../imges/man2.png",
+      imgAfter: "./imges/man1.png",
+      imgBefore: "./imges/man2.png",
       quote:
         " A complete package to all the fitness freaks out there. Join soon and test yourself. Vyayamshala’s layouts, environment and it’s surrounding itself plays vital role to motivate and go beyond your limitation.",
-      starsImg: "../imges/stares.png",
+      starsImg: "./imges/stares.png",
       author: "John Doe, Student",
     },
     {
-      imgAfter: "../imges/woman2.jpg",
-      imgBefore: "../imges/woman1.jpg",
+      imgAfter: "./imges/woman2.jpg",
+      imgBefore: "./imges/woman1.jpg",
       quote:
         "An incredible place for fitness enthusiasts. The community is supportive, and the trainers provide personalized guidance to push your limits and achieve your goals. Vyayamshala’s environment is truly inspiring, making every workout session enjoyable and rewarding.",
       starsImg: "../imges/stares.png",
       author: "Jane Smith, Teacher",
     },
     {
-      imgAfter: "../imges/man3.jpg",
-      imgBefore: "../imges/man4.jpg",
+      imgAfter: "./imges/man3.jpg",
+      imgBefore: "./imges/man4.jpg",
       quote:
         "A top-tier gym experience for those serious about fitness. From state-of-the-art equipment to a welcoming atmosphere, Vyayamshala offers everything you need to stay committed. The positive energy and motivation here are unmatched, helping you exceed your expectations.",
       starsImg: "../imges/stares.png",
@@ -57,12 +57,12 @@ document.addEventListener("DOMContentLoaded", function () {
     ".swiper-container .swiper-wrapper"
   );
   const trainers = [
-    { imgSrc: "../imges/trainer1.png", name: "Amir Shrestha" },
-    { imgSrc: "../imges/trainer2.png", name: "Christina Thapa" },
-    { imgSrc: "../imges/trainer3.png", name: "Sunil Chetri" },
-    { imgSrc: "../imges/trainer4.png", name: "Priya K.C" },
-    { imgSrc: "../imges/trainer5.png", name: "Santosh Adhikari" },
-    { imgSrc: "../imges/trainer6.png", name: "Rina Pun" },
+    { imgSrc: "./imges/trainer1.png", name: "Amir Shrestha" },
+    { imgSrc: "./imges/trainer2.png", name: "Christina Thapa" },
+    { imgSrc: "./imges/trainer3.png", name: "Sunil Chetri" },
+    { imgSrc: "./imges/trainer4.png", name: "Priya K.C" },
+    { imgSrc: "./imges/trainer5.png", name: "Santosh Adhikari" },
+    { imgSrc: "./imges/trainer6.png", name: "Rina Pun" },
   ];
 
   for (let i = 0; i < 5; i++) {

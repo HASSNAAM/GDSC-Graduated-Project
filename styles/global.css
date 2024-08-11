@@ -260,6 +260,7 @@ header:has(main) {
   justify-content: center;
   flex-direction: column;
   gap: 50px;
+  text-align: center;
 }
 header main a {
   color: #ff69b4;

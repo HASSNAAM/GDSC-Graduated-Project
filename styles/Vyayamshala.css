@@ -110,6 +110,9 @@ h1 {
   color: var(--logo);
   margin-bottom: 30px;
 }
+header .left{
+  padding:0 15px;
+}
 header .left p {
   color: #d5d5d5;
 }

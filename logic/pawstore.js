@@ -20,21 +20,21 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const dogs = [
     {
-      imgDog: "../imges/maindog.png",
+      imgDog: "./imges/maindog.png",
       h1: "Everybody needs a friend in Life.",
       p: "The Corgi is intelligent, quick and curious. It is a kind, adventurous breed which shows a large measure of independence. They are good with children and normally kind with strangers.",
       button: "Buy Me",
       h2: "Corgi (2 months)",
     },
     {
-      imgDog: "../imges/maindog.jpg",
+      imgDog: "./imges/maindog.jpg",
       h1: "Everybody needs a friend in Life.",
       p: "The Labrador Retriever is loyal, friendly, and outgoing. It is a playful, energetic breed known for its affectionate nature. They are excellent with families and thrive on companionship.",
       button: "Buy Me",
       h2: "Labrador (6 months)",
     },
     {
-      imgDog: "../imges/maindog2.webp",
+      imgDog: "./imges/maindog2.webp",
       h1: "Everybody needs a friend in Life.",
       p: "The Beagle is curious, lively, and gentle. It is a small, sturdy breed with a keen sense of smell. They are great with children and enjoy outdoor adventures immensely.",
       button: "Buy Me",
