@@ -192,6 +192,9 @@ footer a:hover {
   color: var(--alt-gray);
 }
 @media screen and (max-width: 821px) {
+  main .menu {
+  gap:30px;
+  }
   header .photos {
     flex-wrap: wrap;
     margin-top: 30px;
