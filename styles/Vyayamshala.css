@@ -389,7 +389,7 @@ form button {
 }
 #mobile-menu {
   background-color: var(--background);
-  line-height: 2.5;
+  line-height: 2.8;
 }
 @media screen and (max-width: 821px) {
   nav .container {
