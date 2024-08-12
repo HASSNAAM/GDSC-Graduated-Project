@@ -473,6 +473,9 @@ form button {
 }
 @media screen and (max-width: 393px) {
   header .buttons button:nth-child(2) {
-    margin-left: 10px;
+    margin-left: 0px;
+  }
+  header .buttons button:nth-child(2){
+    gap:5px;
   }
 }
