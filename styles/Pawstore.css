@@ -283,6 +283,9 @@ footer a:hover {
   #blog .content {
     flex-wrap: wrap;
   }
+  #blog .content{
+    gap:0;
+  }
   #accessories .container .left {
     max-width: 100%;
     text-align: center !important;
@@ -294,10 +297,6 @@ footer a:hover {
   #accessories .container .right {
     flex-grow: 2;
     text-align: center;
-  }
-  #accessories .container .right img {
-    width: 200px;
-    height: 200px;
   }
 }
 @media screen and (max-width: 767px) {
