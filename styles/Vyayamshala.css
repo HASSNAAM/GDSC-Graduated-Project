@@ -110,9 +110,6 @@ h1 {
   color: var(--logo);
   margin-bottom: 30px;
 }
-header .left{
-  padding-right: 20px;
-}
 header .left p {
   color: #d5d5d5;
 }
@@ -406,7 +403,7 @@ form button {
     margin-bottom: 50px;
   }
   header .container {
-    flex-wrap: wrap;
+        flex-direction: column;
     gap: 0;
   }
   header .right {
