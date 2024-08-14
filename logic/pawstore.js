@@ -6,7 +6,7 @@ function validateEmail() {
 
   if (!emailPattern.test(emailValue)) {
     document.querySelector(".error-message").textContent =
-      "Please Enter A valied Email.";
+      "Please Enter A valid Email.";
     return false;
   }
 
