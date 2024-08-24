@@ -9,6 +9,9 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+.search-box input {
+  border-color: var(--main-color);
+}
 h2 {
   font-size: 36px;
   font-weight: 700;
@@ -31,6 +34,17 @@ button {
   border: 1px solid #000000;
   background-color: transparent;
   display: block;
+}
+.search-box button {
+  background-color: var(--main-color);
+  color: var(--alt-white);
+  border-color: transparent;
+  display: inline-block;
+}
+.search-box button:hover {
+  color: var(--main-color);
+  background-color: var(--alt-white);
+  border-color: var(--main-color);
 }
 /* Nav */
 nav {

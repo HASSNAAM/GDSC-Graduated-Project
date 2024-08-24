@@ -30,11 +30,227 @@
     <title>GardenPokhara</title>
   </head>
   <body>
+    <!-- Nav -->
+    <nav>
+      <div class="container flex-between">
+        <div class="logo flex-center">
+          <img src="./imges/alovera-logo.png" alt="GardenPokhara icon" />
+          <small><span>Garden</span>Pokhara</small>
+        </div>
+        <div class="flex-center">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fa-solid fa-bars" id="icon-menu"></i>
+        </div>
+      </div>
+    </nav>
+    <div id="mobile-container">
+      <i class="fa-solid fa-xmark" id="mobile-close"></i>
+      <ul id="mobile-menu">
+        <li><a href="#" class="active">Home</a></li>
+        <li>
+          <a href="#services">services</a>
+        </li>
+        <li><a href="#categories">Categories</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <!-- Header -->
     <header>
-      <h1>under development</h1>
+      <div class="circles">
+        <span class="active" data-id="1"></span>
+        <span data-id="2"></span>
+        <span data-id="3"></span>
+      </div>
+      <div class="container">
+        <div
+          class="left"
+          style="background-image: url(./imges/aloevera.png)"
+        ></div>
+        <div class="right">
+          <h1>Aloe vera</h1>
+          <p>
+            Aloe produces two substances, gel and latex, which are used for
+            medicines. Aloe gel is the clear, jelly-like substance found in the
+            inner part of the aloe plant leaf. Aloe latex comes from just under
+            the plant's skin and is yellow in color. Some aloe products are made
+            from the whole crushed leaf, so they contain both gel and latex.
+          </p>
+          <div class="buttons">
+            <button>Buy Me</button>
+            <button>Explore Plants</button>
+          </div>
+        </div>
+      </div>
+      <div class="arrows">
+        <div class="container">
+          <div>
+            <h2>Aloe vera</h2>
+          </div>
+          <img src="./imges/social3.png" alt="social" />
+        </div>
+      </div>
     </header>
-
+    <!-- Our Services -->
+    <main id="services">
+      <h2>Our Services</h2>
+      <div class="container flex-center">
+        <div>
+          <img src="./imges/p-serv1.png" alt="services 1" />
+        </div>
+        <div>
+          <img src="./imges/p-serv2.png" alt="services 2" />
+        </div>
+        <div>
+          <img src="./imges/p-serv3.png" alt="services 3" />
+        </div>
+      </div>
+    </main>
+    <!-- Categories -->
+    <section id="categories">
+      <div class="container flex-center">
+        <div class="left">
+          <h2>
+            Explore from <br />
+            Categories
+          </h2>
+          <p>
+            There are different types of plants all around us, and most of us
+            recognize many kinds of plants that flower, grow in our gardens, or
+            that we can eat. There is a vast range in the types of plants that
+            grow in the world.
+          </p>
+          <button>See All</button>
+        </div>
+        <div class="right flex-center">
+          <div style="background-image: url(./imges/back-cate1.png)">
+            <img src="./imges/cate1.png" alt="Product 1" />
+          </div>
+          <div style="background-image: url(./imges/back-cate2.png)">
+            <img src="./imges/cate2.png" alt="Product 2" />
+          </div>
+          <div
+            style="
+              background-image: url(./imges/back-cate3.png);
+              position: relative;
+            "
+          >
+            <img src="./imges/cate3.png" alt="Product 3" />
+            <h4
+              style="
+                position: absolute;
+                top: 40%;
+                z-index: 100;
+                color: var(--white);
+                text-align: center;
+                width: 100%;
+              "
+            >
+              Indoor Plant
+            </h4>
+          </div>
+          <div style="background-image: url(./imges/back-cate4.png)">
+            <img src="./imges/cate4.png" alt="Product 4" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Garden Pokhara welcomes you!! -->
+    <section
+      class="welcome flex-center"
+      style="background-image: url(./imges/gradenback.png)"
+    >
+      <div class="left">
+        <h2>Garden Pokhara welcomes you!!</h2>
+        <p>
+          Receive 10% off on your purchase. <br />
+          Redeem now!
+        </p>
+      </div>
+      <div class="right">
+        <form action="#" onsubmit="return validateEmail()">
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter email...."
+          />
+          <button type="submit">Claim now</button>
+          <p class="error-message" style="margin-top: 15px"></p>
+        </form>
+      </div>
+    </section>
+    <!-- Upcoming Plants -->
+    <section id="news">
+      <h2>Upcoming Plants</h2>
+      <div class="container flex-center">
+        <div>
+          <img src="./imges/plant1.png" alt="Plant 1" />
+          <h3>Ivy</h3>
+        </div>
+        <div>
+          <img src="./imges/plant2.png" alt="Plant 2" />
+          <h3>Jasmine</h3>
+        </div>
+        <div>
+          <img src="./imges/plant3.png" alt="Plant 3" />
+          <h3>Rosemary</h3>
+        </div>
+        <div>
+          <img src="./imges/plant4.png" alt="Plant 4" />
+          <h3>Gingko</h3>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer id="contact">
+      <div class="container">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+        <div class="contact">
+          <h3>Contact</h3>
+          <address>
+            Pokhara, Nepal<br />mail@gardenpokhara.club<br />+977-9801048130
+          </address>
+        </div>
+        <div class="mapbox">
+          <h4>Map</h4>
+          <img src="./imges/map.png" alt="map" class="square" />
+          <img
+            src="./imges/openmoji_location-indicator-red.png"
+            alt="location"
+            class="location"
+          />
+          <img src="./imges/Vector.png" alt="Vector" class="vector" />
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509374!2d144.9537363156176!3d-37.8172099797517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577fd0c3c4ef0cb!2sFederation%20Square!5e0!3m2!1sen!2sau!4v1631619645992!5m2!1sen!2sau"
+            width="100%"
+            height="100%"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+      </div>
+      <div class="container">
+        <p>Copyright @ 2021 Pawstore</p>
+        <div class="social">
+          <img src="./imges/gardensocial.png" alt="social" />
+        </div>
+        <p>
+          Created by
+          <a href="https://github.com/HASSNAAM" target="_blank"
+            >Hassnaa Mahmoud</a
+          >
+        </p>
+      </div>
+    </footer>
     <noscript>Your browser don't support JavaScript!</noscript>
-    <script src="./scripts.js"></script>
+    <script src="./logic/global.js"></script>
+    <script src="./logic/alovera.js"></script>
   </body>
 </html>

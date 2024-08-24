@@ -15,6 +15,9 @@ section,
 header {
   margin-bottom: 90px;
 }
+.search-box input{
+  border-color: var(--button);
+}
 h1,
 h2 {
   line-height: 54px;
