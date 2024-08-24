@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
       h2: "Aloe vera",
     },
     2: {
-      image: "../imges/plant2.png",
+      image: "./imges/plant2.png",
       h1: "Jasmine",
       text: "Jasmine is a fragrant flowering plant that produces delicate white or yellow blossoms. The flowers are harvested for their essential oils, commonly used in perfumes and aromatherapy. Jasmine tea, made from the flowers, has a soothing, calming effect. The plant is also celebrated for its beautiful, climbing vines, which can enhance any garden or landscape.",
       h2: "Jasmine",
